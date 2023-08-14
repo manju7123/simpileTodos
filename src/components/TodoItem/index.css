@@ -1,0 +1,28 @@
+.todo-item {
+  width: 100%;
+  list-style-type: none;
+}
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.title {
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.btn {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 2px solid #ff0b37;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ff0b37;
+  padding: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
